@@ -1,0 +1,10 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "deploy": {
+    "region": "asia-southeast1",
+    "startCommand": "node server/index.js",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
+
+
